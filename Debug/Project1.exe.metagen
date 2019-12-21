@@ -1,0 +1,55 @@
+  Project1.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project1.Uart_settings.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly FTD2XX_NET, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly PICkitS, Version=2.4.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project1.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button Measure : Public
+    System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1 : Public
+    System.IO.Stream myStream : Public
+    System.String filename : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+    System.String ComPort : Public
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    i2c_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    timer_set(): PrivateScope, Public, HideBySig
+    timerCom_set(): PrivateScope, Public, HideBySig
+    timerFTDI_set(): PrivateScope, Public, HideBySig
+    Measure_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project1.Uart_settings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox comboBox1 : Public
+    System.IO.Ports.SerialPort serial_port : Public
+    System.String Comport : Public
+  Methods:
+    SetPortNamesValues(Object): PrivateScope, Public, HideBySig
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    button1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    Uart_settings_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+    comboBox1_SelectedIndexChanged(Object, EventArgs): PrivateScope, Public, HideBySig
