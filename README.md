@@ -1,2 +1,2 @@
 # Project1
-connecting Pic32,33F with PC 
+Connecting Pic32,33F with PC 
